@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "opencv-wasm": "^4.3.0-10"
+  }
+}
