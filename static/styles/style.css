@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Roboto', sans-serif;
+
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  width: 100%;
+  height: 100dvh;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: grey;
+}
+
+#camera {
+  width: 100%;
+  height: auto;
+}
+
+#shutter {
+  width: 5rem;
+  height: 5rem;
+
+  border-radius: 25%;
+}
+
+#canvas {
+  position: absolute;
+  width: 100%;
+  height: 80%;
+
+  background-color: white;
+}
